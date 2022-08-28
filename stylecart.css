@@ -1,0 +1,271 @@
+* {
+  padding: 10px 25px;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Mulish-ExtraLight;
+}
+@font-face {
+  font-family: Mulish-ExtraLight;
+  src: url(font/Mulish-ExtraLight.ttf);
+}
+
+
+.cartpage {
+  display: flex;
+  /* background-color: aqua; */
+  width: 100%;
+  height: 90vh;
+  padding: 0;
+  position: relative;
+}
+
+.sidetab {
+  width: 10%;
+  height: 80vh;
+  background-color: black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidetab span {
+  width: 100%;
+  height: 100px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.sidetab .menu {
+  width: 90px;
+  height: 60px;
+  padding: 0;
+}
+
+.sidetab .sicon {
+  width: 90px;
+  height: 60px;
+}
+
+.middlespace {
+  width: 60%;
+  height: 70vh;
+  /* background-color: blue; */
+  padding: 0 20px 0 35px;
+}
+.middlespace .upperpart {
+  width: 100%;
+  height: 15%;
+  background-color: white;
+  padding-left: 0;
+  padding-top: 0;
+}
+.upperpart span {
+
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 63px;
+/* identical to box height */
+color: #000000;
+padding: 0;
+position: relative;
+}
+
+.upperpart span::before {
+  content: '';
+  height: 3px;
+  width: 80px;
+  background: #F1D5BB;
+  position: absolute;
+  bottom: 0;
+
+}
+
+.middlespace .lowerpart {
+  width: 100%;
+  height: 85%;
+  background-color:  #F1D5BB;
+  padding: 0;
+}
+.middlespace .lowerpart .unit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab .food1 img {
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.tab .food1 {
+  padding: 10px 0;
+}
+.tab .text {
+display: flex;
+white-space: nowrap;
+padding-top: 20px;
+justify-content: center;
+align-items: center;
+}
+.tab .text p {
+font-size: 17px;
+padding: 10px 0;
+text-align: center;
+}
+.tab {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  justify-content: space-around;
+  height: 80px;
+}
+ button {
+  width: 10px;
+  height: 30px;
+  outline: none;
+  background-color:  #F1D5BB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 40px;
+}
+h2 {
+  margin: 0 2px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+.tab .span {
+  padding: 0;
+}
+
+.tab .cancel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab .food2 img {
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.tab .food2 {
+  padding: 10px 0;
+}
+
+.tab .food3 img {
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.tab .food3 {
+  padding: 10px 0;
+}
+
+.tab .food5 img {
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.tab .food5 {
+  padding: 10px 0;
+}
+
+
+.rightspace {
+  /* background-color: brown; */
+  width: 30%;
+  height: 60vh;
+  position: absolute;
+  top: 65px;
+  left: 70%; 
+  padding: 0;
+}
+
+.rightspace .upperhalf {
+  height: 50%;
+  width: 100%;
+  background: #F1D5BB;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.upperhalf .your-total {
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+
+color: #000000;
+
+}
+.upperhalf .sub {
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 38px;
+/* identical to box height */
+color: rgba(0, 0, 0, 0.8);
+padding: 10px 0;
+}
+
+.confirm-order input {
+  background-color: black;
+  width: 250px;
+  height: 44px;
+  color: white;
+  font-size: 20px;
+
+}
+
+.rightspace .lowerhalf {
+  height: 50%;
+  width: 100%;
+  background: #FFFFFF;
+  border: 3px solid #F1D5BB;
+  border-radius: 3px;
+}
+.lowerhalf form label {
+padding: 10px 0;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+
+color: #000000;
+}
+
+.lowerhalf .apply {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.sidetab .blackcart-icon {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1D5BB;
+}
+
+.sidetab .cart {
+  width: 90px;
+  height: 60px;
+}

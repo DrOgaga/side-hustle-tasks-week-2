@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Page</title>
+  <link rel="stylesheet" href="stylecart.css">
+</head>
+<body>
+  <div class="cartpage">
+    <div class="sidetab">
+      <span class="icon">
+      <img class="sicon" src="images/S-icon.png" alt="">
+      </span>
+      <span class="icon">
+      <img class="home" src="images/homepageicon.png" alt="">
+      </span>
+      <span class="icon">
+      <img class="menu" src="images/Whitemenu-icon.PNG" alt="">
+      </span>
+      <span class="blackcart-icon">
+      <img class="cart" src="images/blackcart-icon.png" alt="">
+      </span>
+      <span class="icon">
+      <img class="lacation" src="images/location-icon.png" alt="">
+      </span>
+      <span class="icon">
+      <img class="exit" src="images/exit-icon.png" alt="">
+      </span>
+    </div>
+    <div class="middlespace">
+      <div class="upperpart">
+        <span class="uppertext">CART</span>
+      </div>
+      <div class="lowerpart">
+        <div class="tab">
+          <span class="food1">
+            <img src="images/food1.jpg" alt="">
+          </span>
+          <span class="text">Smashed Avo <br><br> $20.00
+          </span> 
+          <span class="unit">
+            <button onclick="decreament()">-</button>
+            <h2 id="root"></h2>
+            <button onclick="increament()">+</button>
+          </span> 
+          <span class="cancel">
+            <img src="images/times.png" alt="">
+          </span>
+        </div>
+        <div class="tab">
+          <span class="food2">
+            <img src="images/food2.jpg" alt="">
+          </span>
+          <span class="text">Ying & Yang<br><br> $10.00
+          </span> 
+          <span class="unit">
+            <button onclick="decreament()">-</button>
+            <h2 id="root"></h2>
+            <button onclick="increament()">+</button>
+          </span> 
+          <span class="cancel">
+            <img src="images/times.png" alt="">
+          </span>
+        </div>
+        <div class="tab">
+          <span class="food3">
+            <img src="images/food3.jpg" alt="">
+          </span>
+          <span class="text">Pancakes<br><br> $25.00
+          </span> 
+          <span class="unit">
+            <button onclick="decreament()">-</button>
+            <h2 id="root"></h2>
+            <button onclick="increament()">+</button>
+          </span> 
+          <span class="cancel">
+            <img src="images/times.png" alt="">
+          </span>
+        </div>
+        <div class="tab">
+          <span class="food5">
+            <img src="images/food5.jpg" alt="">
+          </span>
+          <span class="text">Rancheros<br><br> $25.00
+          </span> 
+          <span class="unit">
+            <button onclick="decreament()">-</button>
+            <h2 id="root"></h2>
+            <button onclick="increament()">+</button>
+          </span> 
+          <span class="cancel">
+            <img src="images/times.png" alt="">
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="rightspace">
+      <div class="upperhalf">
+        <span class="your-total">Your Subtotal <br><span class="sub"> Subtotal $80.00</span></span>
+        <span class="confirm-order">
+          <input type="submit" name="" id="" value="Confirm Order">
+        </span>
+      </div>
+      <div class="lowerhalf">
+        <form action="">
+          <label for="">Promo Code</label>
+          <input type="text" placeholder="enter promo code">
+          <input class="apply" type="submit" name="" id="" value="Apply">
+        </form>
+      </div>
+    </div>
+  </div> 
+  <span class="copyright">Copyright © 2021 Sushi Restaurant</span>
+</body>
+</html>

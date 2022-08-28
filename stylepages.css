@@ -1,0 +1,134 @@
+* {
+  padding: 10px 25px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Mulish-ExtraLight;
+  src: url(font/Mulish-ExtraLight.ttf);
+}
+.menupage {
+  display: flex;
+}
+
+.lefttab {
+  width: 10%;
+  height: 80vh;
+  background-color: black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-right: 75px; */
+  
+ 
+
+}
+.lefttab img {
+  width: 80px;
+  height: 55px;
+}
+
+
+
+
+.menu-icon {
+  background-color: #F1D5BB;
+  width: 100px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+.menu-icon img {
+
+}
+
+
+.menupage .menu-content {
+  width: 90%;
+  /* background-color: blue; */
+  padding-left: 0;
+  padding-top: 0;
+  font-family: Mulish-ExtraLight;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-right: 5px;
+  
+}
+
+.menu img {
+  width: 170px;
+  height: 160px;
+  padding-left: 2px;
+  padding-right: 0;
+  
+}
+
+.menu {
+  padding: 0 auto;
+  display: block;
+  padding-left: 2px;
+  padding-top: 0;
+  padding-right: 25px;
+}
+
+.menu p {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.sushi-menu {
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 63px;
+/* identical to box height */
+color: #000000;
+
+padding-top: 0;
+margin: 0;
+position: relative;
+padding-bottom: 0;
+}
+
+button {
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+color: #FFFFFF;
+background: #000000;
+border-radius: 2px;
+}
+
+.btn {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  padding: 0 25px;
+  
+}
+
+.btn a {
+  padding: 0 25px;
+}
+
+.menu-content p::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  background: #F1D5BB;
+  height: 5px;
+  width: 240px;
+
+}
